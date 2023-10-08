@@ -45,4 +45,45 @@ This work aims to predict whether a customer will subscribe to term deposit or n
   - MODEL EVALUATION
     - The performance of the model is evaluated. Metrics such as as accuracy, precision, and recall are used.
 
-##
+## QnA
+1.	What is the distribution of the customer ages?
+  ```
+  Most of the customers’ ages are in the range of 30-40.
+  ```
+2.	What is the relationship between customer age and subscription?
+  ```
+  The percentage of subscription taken among customers of ages 30-60, but it increases significantly above the ages of 60.
+  ```
+3.	Are there any other factors that are correlated with subscription?
+  ```
+  Some of the features that are correlated with subscription taken or not are duration, month, age, etc.
+  ```
+4.	What is the accuracy of the logistic regression model?
+  ```
+  88.39%
+  ```
+5.	What are the most important features for the logistic regression model?
+  ```
+  Logistic regression model follows classification according to the sigmoid function.
+  ```
+6.	What is the precision of the logistic regression model?
+  ```
+  0.98
+  ```
+7.	What is the recall of the logistic regression model?
+  ```
+  0.89
+  ```
+8.	What is the f1-score of the logistic regression model?
+  ```
+  0.93
+  ```
+9.	How can you improve the performance of the logistic regression model?
+  ```
+  Classifying the categorical data into numerical data, correct data preprocessing, removing unimportant features or scaling the data.
+  ```
+10.	What are the limitations of the logistic regression model?
+  ```
+  The limitation of logistic regression can be is that it assumes a linear relationship between independent(x) and dependent variables(y), whereas sometimes the dependency    can be of higher orders.
+  ```
+
