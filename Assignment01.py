@@ -294,12 +294,7 @@ x_train, x_val, y_train, y_val = train_test_split(input_predictors, output_targe
 #Testing Different Models
 
 #1) Logistic Regression
-#2) Gaussian Naive Bayes
-#3) Support Vector Machines
-#4) Decision Tree Classifier
-#5) Random Forest Classifier
-#6) KNN or k-Nearest Neighbors
-#7) LDA or Linear Discriminant Analysis
+
 
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import GridSearchCV
@@ -335,7 +330,8 @@ print("\n\nAccuracy score %f" % accuracy_score(y_val, predictions))
 print("\n\n")
 print(" scaled confusion_matrix = \n")
 print( confusion_matrix(y_val, predictions))
-
+#[[7828  174]
+ #[ 805  325]]
 #Using the components of the confusion matrix, we can define the various metrics used for evaluating classifiers—accuracy, precision, recall, and F1 score.
 precision=7828/(174+7828)
 recall=7828/(7828+305)
