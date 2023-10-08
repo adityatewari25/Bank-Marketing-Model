@@ -27,3 +27,19 @@ There are a total of 16 features and 1 target variable.
 image
 
 ## METHODOLOGY
+This work aims to predict whether a customer will subscribe to term deposit or not.
+
+  - IMPORTING NECESSARY LIBRARIES
+    - Necessary libraries are imported that are required for data analysis, visualization, and model building.
+  - IMPORTING DATASET AND PREPARATION
+    - The ‘bank-full’ dataset is imported. The dataset is cleaned by removing missing values and outliers. Some of the categorical variables are converted to numerical values.
+  - EXPLORATORY DATA ANALYSIS
+    - Visualization and analysis are performed on the cleaned dataset. Insights are drawn out that will help in feature selection.
+  - FEATURE SELECTION
+    - Features and the target variable are set by dropping and assigning the columns respectively.
+  - TRAIN-TEST SPLIT
+    - Train-Test split is performed. The entire dataset is split into train and test dataset.
+  - MODEL BUILDING
+    - After having a good understanding of data, a model is built to predict the outcome.
+  - MODEL EVALUATION
+    - The performance of the model is evaluated. Metrics such as as accuracy, precision, and recall are used.
