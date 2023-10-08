@@ -24,7 +24,7 @@ The dataset comprises of:
 There are a total of 16 features and 1 target variable.
 
 ### SAMPLE DATASET
-image
+![Sample Dataset]([https://myoctocat.com/assets/images/base-octocat.svg](https://github.com/adityatewari25/Bank-Marketing-Model/blob/main/images/sample_dataset.png))
 
 ## METHODOLOGY
 This work aims to predict whether a customer will subscribe to term deposit or not.
@@ -43,3 +43,5 @@ This work aims to predict whether a customer will subscribe to term deposit or n
     - After having a good understanding of data, a model is built to predict the outcome.
   - MODEL EVALUATION
     - The performance of the model is evaluated. Metrics such as as accuracy, precision, and recall are used.
+
+##
