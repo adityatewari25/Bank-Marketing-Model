@@ -21,10 +21,11 @@ The information about the same is available in the dataset.
 The dataset comprises of:
   - 45211 rows
   - 17 columns
+
 There are a total of 16 features and 1 target variable.
 
 ### SAMPLE DATASET
-![Sample Dataset]([https://myoctocat.com/assets/images/base-octocat.svg](https://github.com/adityatewari25/Bank-Marketing-Model/blob/main/images/sample_dataset.png))
+![Sample Dataset]([https://myoctocat.com/assets/images/base-octocat.svg](https://github.com/adityatewari25/Bank-Marketing-Model/blob/main/images/sample_dataset.png?raw=true))
 
 ## METHODOLOGY
 This work aims to predict whether a customer will subscribe to term deposit or not.
